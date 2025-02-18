@@ -10,7 +10,7 @@ nav {
 }
 
 a {
-	text-decoration: none;
+	text-decoration:circle;
 	color: black;
 }
 header {
@@ -42,7 +42,7 @@ footer {
 	font-size: 24px;
 }
 .nav_footer {
-	paddint-top:40px;
+	padding-top:40px;
 }
 #contact div {
 	display: flex;
