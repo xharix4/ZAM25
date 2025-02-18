@@ -28,6 +28,8 @@ img {
 .logo {
 	width:100px;
 	height:auto;
+	position:relative;
+	top:20px;
 }
 footer {
 	background-color: yellow;
