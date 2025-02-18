@@ -2,19 +2,24 @@ body {
 	background-color: beige;
 }
 nav {
-	display:flex;
-	
+	display: flex; 	
 }
+
 .nav_header {
 	diplay:flex;
 	flex-direction:row;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 header {
  	background-color: yellow;
 }
 li {
 	list-style-type:none;
-	padding-top: 20px;
+	padding-right: 20px;
 }
 img {
 	display: block;
