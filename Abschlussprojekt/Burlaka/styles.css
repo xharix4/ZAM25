@@ -10,5 +10,8 @@ p {
 }
 footer{
 	background-color: darkblue;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
 }
 
