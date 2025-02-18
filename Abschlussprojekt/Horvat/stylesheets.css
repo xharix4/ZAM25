@@ -1,0 +1,70 @@
+
+
+/* global fonts and other styling */
+body {
+	font-family: 'Arial', sans-serif 
+	background-color:f4f4f9;
+	color: #333;
+	margin: 0;
+	padding: 0; 
+}
+
+/* nav bar */
+
+.navbar {
+	background-color: 333;
+	overflow:hidden; 
+	display: flex; 
+	justify-content: center; 
+	padding: 10px 0;
+}
+
+.navbar a {
+color: white; 
+padding: 14px 20px;
+text-align:center; 
+text-decoration: none; 
+font-size: 16px; 
+}
+
+
+.navbar a:hover {
+	background-color:#575757;
+}
+
+
+/* Styling für Header */
+h1 {
+	text-align:center; 
+	font-size: 36px;
+	color: black; 
+	margin-top:30px; 
+}
+
+/* Styling für Text*/
+
+p {
+	font-size: 18px; 
+	line-height:1.6; 
+	text-align: center;
+	color: #666; 
+	padding: 0 20px; 
+}
+
+
+div a {
+	text-align:center; 
+	font-size: 18px; 
+	color: #4e1583; 
+       text-decoration: none; 
+}
+
+div a:hoover{
+	text-decoration:underline; 
+}
+
+
+
+
+
+
