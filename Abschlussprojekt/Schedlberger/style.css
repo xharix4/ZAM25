@@ -3,12 +3,10 @@ body {
 }
 nav {
 	display: flex; 	
-    	justify-content: space-between;
-	 font-weight: bold;
-}
-.nav_header, .nav_footer {
-	display:flex;
-	flex-direction:row;
+    	justify-content: center;
+        font-weight: bold;
+        height: 100px;
+        font-size: 24px;
 }
 nav a {
     text-decoration: none;
@@ -33,4 +31,10 @@ img {
 }
 footer {
 	background-color: yellow;
+}
+.nav-footer {
+	justify-content: center;
+	font-weight: bold;
+	height: 100px;
+	font-size: 24px;
 }
