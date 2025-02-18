@@ -6,8 +6,8 @@ nav {
     	justify-content: space-between;
 	 font-weight: bold;
 }
-.nav_header {
-	diplay:flex;
+.nav_header, nav_footer {
+	display:flex;
 	flex-direction:row;
 }
 nav a {
@@ -31,6 +31,6 @@ img {
 	width:100px;
 	height:auto;
 }
-main {
-	display:flex;
+footer {
+	background-color: yellow;
 }
