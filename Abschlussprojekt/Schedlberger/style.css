@@ -1,24 +1,26 @@
-
 body {
 	background-color: beige;
 }
 nav {
 	display:flex;
-	flex-direction:row:
+	
+}
+.nav_header {
+	diplay:flex;
+	flex-direction:row;
 }
 header {
- background-color: yellow;
-	
+ 	background-color: yellow;
 }
 li {
 	list-style-type:none;
 	padding-top: 20px;
 }
- img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 .logo {
 	width:100px;
 	height:auto;
