@@ -10,14 +10,14 @@ nav {
 }
 
 a {
-	text-decoration:circle;
+	text-decoration:none;
 	color: black;
 }
 header {
  	background-color: yellow;
 }
 li {
-	list-style-type:circle;
+	list-style-type:none;
 	padding-right: 20px;
 }
 img {
