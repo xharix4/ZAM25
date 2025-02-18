@@ -41,3 +41,11 @@ footer {
 	height: 100px;
 	font-size: 24px;
 }
+.nav_footer {
+	paddint-top:40px;
+}
+#contact div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
