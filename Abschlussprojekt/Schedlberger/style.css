@@ -34,7 +34,7 @@ img {
 footer {
 	background-color: yellow;
 }
-.nav-footer {
+.nav_header, .nav_footer {
 	justify-content: center;
 	font-weight: bold;
 	height: 100px;
