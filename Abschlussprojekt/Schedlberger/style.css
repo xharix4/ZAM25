@@ -6,7 +6,7 @@ nav {
     	justify-content: space-between;
 	 font-weight: bold;
 }
-.nav_header, nav_footer {
+.nav_header, .nav_footer {
 	display:flex;
 	flex-direction:row;
 }
