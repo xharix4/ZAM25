@@ -21,7 +21,7 @@ li {
 	padding-right: 20px;
 }
 .tasks li, .skills li {
-	ist-style-type: circle;
+    list-style-type: circle;
 }
 img {
 	display: block;
