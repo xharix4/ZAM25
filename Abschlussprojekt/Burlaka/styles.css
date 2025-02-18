@@ -8,3 +8,14 @@ h1{
 p {
   color: gray;
 }
+footer{
+	background-color: #00BFFF;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }

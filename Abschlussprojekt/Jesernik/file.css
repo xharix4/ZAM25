@@ -1,7 +1,7 @@
-<style>
-	li {float:right}
+
+	li {float:right;}
 	body {background:grey;}
-	h1 {text-align:center; font-family:verdana}
+	h1 {text-align:center; font-family:papyrus;}
     ul {
   list-style-type: none;
   margin: 0;
@@ -15,11 +15,9 @@
   color: #ece4e3;
 }
 
-	img {width: 80%; height: 80%; align: center;
-    	border: 5px solid #555;
+	img {width: 70%; height: 70%; align: center;
+    	border: 6px solid #080909;
         border-radius: 8px;}
         
-        
-    header {background-color: black;}
+        header {background-color: black;}
 
-</style>

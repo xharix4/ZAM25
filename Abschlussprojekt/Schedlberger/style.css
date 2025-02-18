@@ -1,0 +1,13 @@
+
+body {
+	background-color: lightbeige;
+}
+
+header {
+ background-color: blue;
+	
+}
+li {
+	list-style-type:none;
+	padding-top: 20px;
+}
