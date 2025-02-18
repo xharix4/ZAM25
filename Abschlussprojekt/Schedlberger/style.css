@@ -17,7 +17,7 @@ header {
  	background-color: yellow;
 }
 li {
-	list-style-type:none;
+	list-style-type:circle;
 	padding-right: 20px;
 }
 img {
