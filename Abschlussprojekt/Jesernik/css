@@ -1,0 +1,25 @@
+<style>
+	li {float:right}
+	body {background:grey;}
+	h1 {text-align:center; font-family:verdana}
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+	a {
+  display: block;
+  padding: 8px;
+  background-color: #4f4a49;
+  color: #ece4e3;
+}
+
+	img {width: 80%; height: 80%; align: center;
+    	border: 5px solid #555;
+        border-radius: 8px;}
+        
+        
+    header {background-color: black;}
+
+</style>
