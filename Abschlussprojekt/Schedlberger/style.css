@@ -3,8 +3,9 @@ body {
 }
 nav {
 	display: flex; 	
+    	justify-content: space-between;
+	 font-weight: bold;
 }
-
 .nav_header {
 	diplay:flex;
 	flex-direction:row;
@@ -12,7 +13,7 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
+
 }
 header {
  	background-color: yellow;
