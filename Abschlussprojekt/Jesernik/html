@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css">
+<title>Stellenanzeige</title>
+</head>
+<body>
+<header><ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#kontakt">Kontakt</a></li>
+ 
+</ul></header>
+<h1 id="home">Kommen Sie in unser Team!</h1>
+<p>Wir suchen engagierte Mitarbeiter im Bereich Tee trinken und abwarten.
+<br>
+Sie sind Meister im Sachen aufschieben, Wasser heiß machen und dann Ihren Teebeutel in Ihrer Tasse zu vergessen? Dann sind Sie bei uns genau richtig. 
+<br>
+Wir bieten Ihnen einen uralten Wasserkocher, vierzehn verschiedene Tee Sorten, und ein altes Sofa aus dem die Federn bereits herausstehen. Vorsicht beim Sitzen geboten!
+<br>
+Sehen Sie sich schon jetzt Ihren neuen potenziellen Arbeitsplatz an:
+<br><br>
+<img src="https://cdn.chimpify.net/6112744da85872b57d8b4574/2022/10/20220915_Otherhomes_Luetjenburg_HPF0130-original.jpg"></p>
+
+<h1 id="kontakt">Nehmen Sie Kontakt mit uns auf</h1>
+<p>Oder auch nicht. Wir haben sowieso kein funktionierendes Telefon.</p>
+
+</body>
+</html>
