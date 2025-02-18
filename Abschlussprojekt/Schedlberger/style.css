@@ -11,3 +11,8 @@ li {
 	list-style-type:none;
 	padding-top: 20px;
 }
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
