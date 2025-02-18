@@ -20,6 +20,9 @@ li {
 	list-style-type:none;
 	padding-right: 20px;
 }
+.tasks li, .skills li {
+	ist-style-type: circle;
+}
 img {
 	display: block;
 	width: 100%;
