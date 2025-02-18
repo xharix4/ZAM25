@@ -9,9 +9,13 @@ p {
   color: gray;
 }
 footer{
-	background-color: darkblue;
+	background-color: #008B8B;
    color: #fff;
    padding: 20px;
    text-align: center;
 }
-
+img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
