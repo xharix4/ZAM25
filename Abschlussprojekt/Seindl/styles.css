@@ -1,0 +1,24 @@
+body {font-family: Arial, Helvetica, Sans-Serif;
+	background-color: lightgrey;
+	color: #301934;}
+nav {font-size: 20px;}
+
+nav, footer {background-color: #C8B2CF;}
+
+a:link {text-decoration: none;
+	color: purple;}
+
+a:hover {text-decoration: none;
+	color: #FF007F;}
+
+footer li {list-style: none;
+	margin-left: -15px;
+	margin-top: 2px;}
+
+h1, h2, h3 {color: #7600BC;
+
+	margin-bottom: -2px;}
+
+p, ul {margin-top: -1px;
+	padding-top: 2px;}
+
