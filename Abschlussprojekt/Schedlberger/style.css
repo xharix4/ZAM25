@@ -48,3 +48,14 @@ footer {
 	justify-content: center;
 	flex-direction: column;
 }
+.tasks li::before, .skills li::before {
+    content: "";
+    width: 10px; 
+    height: 10px;
+    background-color: yellow; 
+    border-radius: 50%; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
