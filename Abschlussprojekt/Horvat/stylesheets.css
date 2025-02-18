@@ -63,6 +63,21 @@ div a:hoover{
 	text-decoration:underline; 
 }
 
+/* Footer Styling */
+
+footer {
+	background-color: #333; 
+	color: white;
+	text-align: center; 
+	padding: 20px; 
+	margin-top: 40px; 
+}
+
+footer br {
+	margin: 10px 0; 
+}
+
+
 
 
 
