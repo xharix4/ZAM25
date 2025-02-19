@@ -1,5 +1,10 @@
+
 body {
   background-color: lightblue;
+  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 h1{
   color: navy;
@@ -8,14 +13,22 @@ h1{
 p {
   color: gray;
 }
-footer{
-	background-color: #00BFFF;
-   color: #fff;
-   padding: 20px;
-   text-align: center;
-}
+
 img {
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
+
+
+header, footer {
+  background: #6495ED; 
+    color: white; 
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+ margin-top: 20px;
+padding: 10px 20px; 
+}
