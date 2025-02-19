@@ -8,10 +8,6 @@ nav {
         height: 100px;
         font-size: 24px;
 }
-main {
-	position: relative;
-	top:100px;
-}
 
 a {
 	text-decoration:none;
@@ -24,10 +20,6 @@ a:hover {
 }
 header {
  	background-color: yellow;
-	position: fixed;
-	z-index:1000;
-        top: 0;
-        left: 0;
         width: 100%;
 }
 li {
@@ -49,9 +41,7 @@ img {
 	top:20px;
 }
 footer {
-	position: relative;
         background-color: yellow;
-        top: 100px;
 }
 .nav_header, .nav_footer {
 	display:flex;
