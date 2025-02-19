@@ -1,5 +1,5 @@
 
-	li {float:right;}
+	li {align:center;}
 	body {background:grey;}
 	h1 {text-align:center; font-family:papyrus;}
     ul {
@@ -15,7 +15,7 @@
   color: #ece4e3;
 }
 
-	img {width: 70%; height: 70%; align: center;
+	img {width: 60%; height: 60%; align:center;
     	border: 6px solid #080909;
         border-radius: 8px;}
         
