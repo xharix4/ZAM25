@@ -13,15 +13,21 @@ a {
 	text-decoration:none;
 	color: black;
 }
+
+a:hover {
+	color: grey;
+	
+}
 header {
  	background-color: yellow;
+        width: 100%;
 }
 li {
 	list-style-type:none;
 	padding-right: 20px;
 }
-.tasks, .skills {
-    list-style-type: circle !important;
+.tasks li, .skills li{
+   	 list-style-type: circle !important;
 }
 img {
 	display: block;
@@ -35,7 +41,9 @@ img {
 	top:20px;
 }
 footer {
-	background-color: yellow;
+        background-color: yellow;
+	position: sticky;
+    	bottom: 0;
 }
 .nav_header, .nav_footer {
 	display:flex;
@@ -45,12 +53,16 @@ footer {
 	font-size: 24px;
 }
 .nav_footer {
-	padding:40px;
+    	align-items: center; 
+	text-align: center;
 }
 #contact div {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+}
+main {
+	margin: 0px 30px;
 }
 
 
