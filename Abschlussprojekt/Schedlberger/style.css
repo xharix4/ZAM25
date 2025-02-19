@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-	color: lightgrey;
+	color: grey;
 	
 }
 header {
@@ -42,6 +42,8 @@ img {
 }
 footer {
         background-color: yellow;
+	position: sticky;
+    	bottom: 0;
 }
 .nav_header, .nav_footer {
 	display:flex;
