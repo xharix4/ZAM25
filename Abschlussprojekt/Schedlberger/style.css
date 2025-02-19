@@ -8,14 +8,18 @@ nav {
         height: 100px;
         font-size: 24px;
 }
+main {
+	position: relative;
+	top:100px;
 
 a {
 	text-decoration:none;
 	color: black;
 }
+
 a:hover {
-	background-color: lightgrey;
-	text-decoration:underline;
+	color: lightgrey;
+	
 }
 header {
  	background-color: yellow;
@@ -44,7 +48,9 @@ img {
 	top:20px;
 }
 footer {
-	background-color: yellow;
+	position: relative;
+        background-color: yellow;
+        top: 100px;
 }
 .nav_header, .nav_footer {
 	display:flex;
