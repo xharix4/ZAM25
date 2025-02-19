@@ -1,13 +1,56 @@
-
 body {
-	background-color: lightbeige;
+	background-color: beige;
+}
+nav {
+	display: flex; 	
+    	justify-content: center;
+        font-weight: bold;
+        height: 100px;
+        font-size: 24px;
 }
 
+a {
+	text-decoration:none;
+	color: black;
+}
 header {
- background-color: blue;
-	
+ 	background-color: yellow;
 }
 li {
 	list-style-type:none;
-	padding-top: 20px;
+	padding-right: 20px;
 }
+.tasks, .skills {
+    list-style-type: circle !important;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.logo {
+	width:100px;
+	height:auto;
+	position:relative;
+	top:20px;
+}
+footer {
+	background-color: yellow;
+}
+.nav_header, .nav_footer {
+	display:flex;
+	justify-content: center;
+	font-weight: bold;
+	height: 100px;
+	font-size: 24px;
+}
+.nav_footer {
+	padding:40px;
+}
+#contact div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
