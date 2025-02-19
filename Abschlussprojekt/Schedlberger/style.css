@@ -45,7 +45,10 @@ footer {
 	font-size: 24px;
 }
 .nav_footer {
-	padding:40px;
+	
+    	align-items: center; 
+    	
+    	text-align: center;
 }
 #contact div {
 	display: flex;
