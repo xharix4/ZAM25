@@ -14,10 +14,14 @@ a {
 	color: black;
 }
 a:hover {
-	background-color: yellow;
+	background-color: grey;
 }
 header {
  	background-color: yellow;
+	position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
 }
 li {
 	list-style-type:none;
