@@ -1,3 +1,8 @@
+nav {
+	background-color: #0C1820;
+
+}
+
 nav li {
 	float: right;
     
@@ -8,7 +13,6 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #0C1820;
 	text-align: center;
     color: white;
 }
