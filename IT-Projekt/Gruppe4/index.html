@@ -1,36 +1,144 @@
 <!DOCTYPE html>
-<html lang="de">
-	<head>
-		<link rel="stylesheet" href="style.css">
-		<title> Horse Webseite </title>
-		<meta charset="UTF-8" >
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body>
-		<header>
-			<div>
-				<a href="#"><img src="" alt="logo"></a>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#about">Über uns</a></li>
-					<li><a href="#products">Unsere Leistungen </a></li>
-					<li><a href="#contact">Kontakte</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-		</main>
-		<footer>
-		</footer>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Stadles</title>
+    <style>
+      .header_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .img_logo {
+        width: 60px;
+        height: auto;
+      }
+      .img_hof {
+        width: 100%;
+        height: auto;
+      }
+      .header_wrapper,
+      footer {
+        background-color: green;
+      }
+
+      .links_nav a,
+      .links_footer a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      .links_nav a {
+        text-transform: uppercase;
+        padding: 0 20px;
+      }
+
+      .links_nav,
+      .links_footer {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .links_footer a {
+        padding: 0 20px;
+      }
+      .copyright {
+        color: white;
+      }
+      footer {
+        display: flex;
+        font-size: 16px;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header_wrapper">
+      <div class="logo">
+        <a href="#">
+          <img
+          src="https://www.svgrepo.com/show/23964/horse-head-with-hair-outline.svg"
+          class="img_logo"" alt="logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="links_nav">
+          <li>
+            <a href="#about">Über uns</a>
+          </li>
+          <li>
+            <a href="#products">Unsere Leistungen</a>
+          </li>
+          <li>
+            <a href="#contact">Kontakte</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1></h1>
+      <section id="about">
+        <h2>Über uns</h2>
+        <p>
+          Beispiel Text:Unser Pferdehof blickt auf eine lange Geschichte zurück.
+          Das Familienunternehmen besteht bereits seit vier Generationen, sodass
+          wir auf ein hohes Maß an Erfahrung und Kompetenz zurückgreifen können.
+          Im Jahre 1924 gründete Karl Mayer das Unternehmen und legte somit den
+          Grundstein für eine erfolgreiche Laufbahn im Pferdehandel. Im Laufe
+          der folgenden Jahrzehnte hatten zwar auch wir mit branchenbedingten
+          Schwierigkeiten zu kämpfen, was zum Beispiel durch die Motorisierung
+          der Landwirtschaft in den 60er Jahren ausgelöst wurde, doch Dank
+          unserer Liebe zu den Vierbeinern und unserer Erfahrung in der
+          Pferdezucht und im Pferdehandel konnten wir uns immer erfolgreich am
+          Markt behaupten.
+        </p>
+        <h3>Verkauf</h3>
+        <p>
+          Beispiel Text: Mit unserem umfangreichen Angebot stellen wir jeden
+          Pferdefreund auf höchstem Niveau zufrieden. Zwischen 40 und 60 Pferde
+          aller Rassen stehen bei uns laufend zur Auswahl, sodass jeder Wunsch
+          erfüllt wird. Ob Sie sich nun für ein Reit-, Sport-, Freizeit- oder
+          Arbeitspferd interessieren, bei uns sind Sie bestens aufgehoben.
+        </p>
+        <h3>Ankauf</h3>
+        <p>
+          Beispiel Text:Wir unterbreiten Ihnen gerne ein passendes Angebot für
+          Ihr Pferd. Gerne kommen wir auch persönlich bei Ihnen vorbei und
+          verschaffen uns einen Eindruck von Ihrem Vierbeiner. Zudem können Sie
+          jederzeit bei uns vor Ort vorbeischauen. Sie können sich absolut
+          sicher sein, dass Ihr Liebling bei uns bestens aufgehoben sein wird.
+        </p>
+        <div>
+          <img class="img_hof"
+          src="https://cdn.pixabay.com/photo/2016/08/20/14/25/landscape-1607585_1280.jpg"
+          alt="Pferdehof"
+        </div>
+      </section>
+      <section id="products"></section>
+      <section id="contact"></section>
+    </main>
+    <footer>
+      <div class="copyright">
+        <p>© 2025 Campus Stables. Alle Rechte vorbehalten.</p>
+      </div>
+      <div>
+        <ul class="links_footer">
+          <li>
+            <a href="#about">Über uns</a>
+          </li>
+          <li>
+            <a href="#products">Unsere Leistungen</a>
+          </li>
+          <li>
+            <a href="#contact">Kontakte</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
-
-
-
-
-
-
-
-
 
