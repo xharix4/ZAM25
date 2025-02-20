@@ -1,3 +1,8 @@
+nav {
+	background-color: #0C1820;
+
+}
+
 nav li {
 	float: right;
     
@@ -8,7 +13,8 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #148D8D;
+	text-align: center;
+    color: white;
 }
 
 li a {
@@ -21,27 +27,42 @@ li a {
 }
 
 body {
-	background-color: black;
+	background-color: #0C2333;
  	
  }
  
+ 
+footer {
+	background-color: #0C1820;
+    
+}
+ 
 h1, h2, h3 {
 	text-align: center;
-	color: #F21DA1;
-    font-family: Garamond;
+	color: white;
+    font-family: cursive;
 }
 
 p {
-	color: #148D8D
+	color: #708698;
 
 } 
+
+blockquote {
+
+	color: white;
+	font-family: Courier New;
+	background-color: #0C1820;
+    
+}
 
 img {
 
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
+	border: 5px solid #0C1820;
 
 }
