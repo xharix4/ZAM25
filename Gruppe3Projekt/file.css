@@ -1,0 +1,37 @@
+li {
+	float: right;
+    
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #148D8D;
+}
+
+li a {
+	display: block;
+    color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+    
+}
+
+body {
+	background-color: black;
+ 	
+ }
+ 
+h1 {
+	text-align: center;
+	color: #F21DA1;
+    font-family: Garamond;
+}
+
+p {
+	color: #148D8D
+
+}
