@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campus Stadles</title>
     <style>
+      /*style für header und footer*/
       .header_wrapper {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        height:90px;
       }
       .img_logo {
         width: 60px;
         height: auto;
+        padding:10px;
+      
       }
-      .img_hof {
-        width: 100%;
-        height: auto;
-      }
-      .header_wrapper,
-      footer {
-        background-color: green;
-      }
-
       .links_nav a,
       .links_footer a {
         color: white;
         font-size: 20px;
         text-decoration: none;
       }
+    
+      .links_nav a:hover,
+      .links_footer a:hover {
+        text-decoration: underline;
+      }
+
       .links_nav a {
         text-transform: uppercase;
         padding: 0 20px;
@@ -48,19 +50,66 @@
       .copyright {
         color: white;
       }
+      .header_wrapper,
+      footer {
+        background-color: green;
+      }
       footer {
         display: flex;
         font-size: 16px;
         flex-direction: column-reverse;
         align-items: center;
       }
+
+
+     /* allgemein*/
+      h2 {
+      color:green;
+      font-size: 30px;
+     }
+     main {
+        margin:20px;
+      }
+
+/* sections*/
+      .img_hof, .img_hof_second {
+        width: 100%;
+        height: auto;
+      }
+
+      .images_hof {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+
+      #products {
+        display: flex;
+        align-items: flex-start;
+        justify-content:space-between;
+      }
+
+      .catalog {
+        width:50%;
+      }
+
+      .service ul {
+        padding:0px;
+      }
+     
+      .catalog h2 a{
+        text-decoration: none;
+        color:green;
+      }
+
+
     </style>
   </head>
   <body>
     <header class="header_wrapper">
       <div class="logo">
         <a href="#">
-          <img
+          <img 
           src="https://www.svgrepo.com/show/23964/horse-head-with-hair-outline.svg"
           class="img_logo"" alt="logo" />
         </a>
@@ -112,13 +161,37 @@
           jederzeit bei uns vor Ort vorbeischauen. Sie können sich absolut
           sicher sein, dass Ihr Liebling bei uns bestens aufgehoben sein wird.
         </p>
-        <div>
-          <img class="img_hof"
+        <div class="images_hof">
+         <div><img class="img_hof"
           src="https://cdn.pixabay.com/photo/2016/08/20/14/25/landscape-1607585_1280.jpg"
-          alt="Pferdehof"
+          alt="Pferdehof">
         </div>
+        <div>
+          <img class="img_hof_second"
+          src="https://cdn.pixabay.com/photo/2023/05/24/09/29/trees-8014461_1280.jpg"
+          alt="Pferdehof frei">
+        </div>
+      </div>
       </section>
-      <section id="products"></section>
+      <section id="products">
+        <div class="catalog">
+           <h2> Unser Katalog</h2>
+            <p>
+              Schauen Sie sich unsere wunderschönen Pferde an – perfekt für Liebhaber
+              und Reiter! Entdecken Sie unsere Auswahl an edlen Pferden zum Kauf und
+              finden Sie Ihren idealen Begleiter. 
+              <a href="catalog.html"> Zum Katalog</a>
+           </p>
+         </div>
+         <div class="service">
+            <h2>Unsere Extras:</h2>
+            <ul>
+              <li>Fotoshooting mit Ihrem Lieblingspferd</li>
+              <li>Kindergeburtstage mit spannenden Aktivitäten rund um Pferde</li>
+              <li>Workshop „Pferde pflegen“ – Lernen Sie den richtigen Umgang mit Pferden</li>
+           </ul>
+         <div>
+        </section>
       <section id="contact"></section>
     </main>
     <footer>
