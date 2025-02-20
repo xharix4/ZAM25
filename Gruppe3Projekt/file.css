@@ -44,6 +44,12 @@ p {
 
 } 
 
+blockquote {
+
+	color: #708698;
+    
+}
+
 img {
 
 	display: block;
