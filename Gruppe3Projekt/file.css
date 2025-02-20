@@ -8,8 +8,9 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #148D8D;
+	background-color: #0C1820;
 	text-align: center;
+    color: white;
 }
 
 li a {
@@ -22,18 +23,24 @@ li a {
 }
 
 body {
-	background-color: black;
+	background-color: #0C2333;
  	
  }
  
+ 
+footer {
+	background-color: #0C1820;
+    
+}
+ 
 h1, h2, h3 {
 	text-align: center;
-	color: #F21DA1;
-    font-family: Garamond;
+	color: white;
+    font-family: cursive;
 }
 
 p {
-	color: #148D8D
+	color: #708698;
 
 } 
 
