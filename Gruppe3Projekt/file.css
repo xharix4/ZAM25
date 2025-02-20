@@ -35,3 +35,13 @@ p {
 	color: #148D8D
 
 } 
+
+img {
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+
+}
