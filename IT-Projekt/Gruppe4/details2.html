@@ -57,6 +57,10 @@ body {background-color: beige; text-align: center;}
       .header_wrapper,
       footer {
         background-color: green;
+	display:flex;
+	flex-direction:column-reverse;
+	align-items:center;
+
       }
 
 
@@ -65,6 +69,30 @@ body {background-color: beige; text-align: center;}
 	
 
 	<body>
+		<header class="header_wrapper">
+      <div class="logo">
+        <a href="#">
+          <img
+          src="https://www.svgrepo.com/show/23964/horse-head-with-hair-outline.svg"
+          class="img_logo"" alt="logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="links_nav">
+          <li>
+            <a href="index.html#home">Home</a>
+          </li>
+          <li>
+            <a href="catalog.html#products">Unsere Leistungen</a>
+          </li>
+          <li>
+            <a href="#index.html#contact">Kontakte</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+		
 		<h2> Pretty Woman </h2>
 		<p>
 		<img src="https://www.lqh.de/wordpress/wp-content/uploads/2017/01/Mila3.jpg"  alt="Horse2" style="width:520px;">
@@ -85,12 +113,12 @@ body {background-color: beige; text-align: center;}
 
 	<footer>
       <div class="copyright">
-        <p>© 2025 Campus Stables. Alle Rechte vorbehalten.</p>
+        <p> 2025 Campus Stables. Alle Rechte vorbehalten.</p>
       </div>
       <div>
         <ul class="links_footer">
           <li>
-            <a href="index.html#home">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
             <a href="catalog.html#products">Unsere Leistungen</a>
