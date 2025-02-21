@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css" />
+        <title>Produktliste</title>
+    </head>
+    <body>
+
+        <header>
+            <a href="file:///C:/Users/rachi/OneDrive%20-%20University%20of%20Manitoba/Study/SWENG/FH02/ITPM%20project.html#home">Home</a>
+            <h1>RDL's Wundertüte</h1>
+        </header>
+    
+            <section id="product">
+                <h2>Mowgli Wundertüte</h2>
+                <img src="product1.jpg" alt="Mowgli Wundertüte">
+                <p id="price">Preis: €19.99</p>
+            </section>
+    
+            <section id="product">
+                <h2>Edda Wundertüte</h2>
+                <img src="product2.jpg" alt="Edda Wundertüte">
+                <p id="price">Preis: €19.99</p>
+            </section>
+    
+            <section id="product">
+                <h2>Stitch Wundertüte</h2>
+                <img src="product3.jpg" alt="Stitch Wundertüte">
+                <p id="price">Preis: €19.99</p>
+            </section>
+        </main>
+    
+        <footer>
+            <p>Für Bestellungen oder Fragen kontaktieren Sie uns bitte <a href="file:///C:/Users/rachi/OneDrive%20-%20University%20of%20Manitoba/Study/SWENG/FH02/ITPM%20project.html#kontakt">hier</a>.</p>
+        </footer>
+    
+    </body>
+    </html>
