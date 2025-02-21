@@ -66,8 +66,6 @@ img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 40%;
-    width: 40%;
 	border: 5px solid #0C1820;
 
 }
@@ -75,5 +73,10 @@ img {
 .descr {
 
 	text-align: center;
+
+}
+
+.logo {
+	border: 0;
 
 }
