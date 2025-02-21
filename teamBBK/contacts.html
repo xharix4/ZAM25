@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Chemie Campus Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kontaktieren Sie uns</h1>
+</header>
+
+<div class="container">
+    <h2>Wir freuen uns, von Ihnen zu hören!</h2>
+    <p>Füllen Sie das Formular aus, und wir werden uns so schnell wie möglich bei Ihnen melden.</p>
+
+    <form action="/submit-form" method="POST">
+        <label for="name">Ihr Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Ihre E-Mail-Adresse:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Ihre Nachricht:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Absenden</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; CCS 2025. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
