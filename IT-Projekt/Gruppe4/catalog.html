@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katalog | Campus Stables</title>
 
+
     <style>
         * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+        }
+
 
 body {
     /*font-family: Arial, sans-serif; */
@@ -23,6 +25,25 @@ header {
     color: white;
     padding: 10px 0;
 }
+
+.header_wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+        }
+
+
+.img_logo {
+      display: flex;
+      width: 60px;
+      height: auto;
+        }
+
+.header_wrapper,
+    footer {
+       background-color: green;
+        }
 
 nav {
     display: flex;
@@ -44,13 +65,37 @@ nav {
 
 .links_nav a {
     text-decoration: none;
+    text-transform: uppercase;
     color: white;
     font-size: 16px;
+    padding: 0 20px;
 }
 
 .links_nav a:hover {
     text-decoration: underline;
 }
+
+
+.links_nav a,
+    .links_footer a {
+          color: white;
+          font-size: 20px;
+          text-decoration: none;
+        }
+      
+  
+        .links_nav,
+        .links_footer {
+          list-style-type: none;
+          display: flex;
+          flex-direction: row;
+        
+        }
+  
+        .links_footer a {
+          padding: 0 20px;
+        }
+
 
 /* LogIn Button */
 .login-btn a {
@@ -98,8 +143,19 @@ nav {
 }
 
 .offers h2 {
-    text-align: center;
-    margin-bottom: 20px;
+      color:green;
+      font-size: 30px;
+      letter-spacing: 1px;
+  
+      align-items: center;
+
+
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offers h3 {
+      color: #555;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .offer-list {
@@ -130,72 +186,19 @@ nav {
 
 footer {
     background-color: green;
+    font-size: 16px;
     color: white;
     text-align: center;
+    align-items: center;
+    flex-direction: column-reverse;
     padding: 15px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    display: flex;
 }
 
-    </style>
-
-
-    <!-- <link rel="stylesheet" href="stylesheets.css"> - obsolet, da zum Schluss gemergt wird und jede Seite eigenes Styling hat -->
-
-    <style>
-        .header_wrapper {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-        }
-        .img_logo {
-          width: 60px;
-          height: auto;
-        }
-        .img_hof {
-          width: 100%;
-          height: auto;
-        }
-        .header_wrapper,
-        footer {
-          background-color: green;
-        }
-  
-        .links_nav a,
-        .links_footer a {
-          color: white;
-          font-size: 20px;
-          text-decoration: none;
-        }
-        .links_nav a {
-          text-transform: uppercase;
-          padding: 0 20px;
-        }
-  
-        .links_nav,
-        .links_footer {
-          list-style-type: none;
-          display: flex;
-          flex-direction: row;
-        
-        }
-  
-        .links_footer a {
-          padding: 0 20px;
-        }
-        .copyright {
-          color: white;
-        }
-        footer {
-          display: flex;
-          font-size: 16px;
-          flex-direction: column-reverse;
-          align-items: center;
-        }
-      </style>
-
+</style>
 </head>
 
 <header class="header_wrapper">
@@ -210,13 +213,13 @@ footer {
     <nav>
       <ul class="links_nav">
         <li>
-          <a href="#about">Zurück zur Homepage</a>
+          <a href= "index.html">Zurück zur Homepage</a>
         </li>
         <li>
-          <a href="#products">Unsere Leistungen</a>
+          <a href="index.html#products" >Unsere Leistungen</a>
         </li>
         <li>
-          <a href="#contact">Kontakt</a>
+          <a href= "index.html#contact">Kontakt</a>
         </li>
       </ul>
 
@@ -250,7 +253,8 @@ footer {
         <button>Suchen</button>
     </section>
 
-    <h2> Aktuell in unseren Stables verfügbar: </h2>
+    <center>
+    <h2> Aktuell in unseren Stables verfügbar: </h2></center>
 
         <div class="offer-list">
             <div class="offer-item">
