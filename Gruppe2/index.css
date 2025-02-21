@@ -9,8 +9,7 @@
         body { font-family: Tahoma, Verdana, sans-serif;
                 background-image: url("https://images.pexels.com/photos/7130546/pexels-photo-7130546.jpeg?auto=compress&cs=tinysrgb&w=1200");
                 color: #333;
-                padding: 20px;
-                }
+                padding: 20px; 
 
         nav {   background-color: #333;
                 padding: 10px;
@@ -32,5 +31,5 @@
                 text-align: center;
                 padding: 20px;
 }
-
+}
                                                                                                                                              33,17-30      Top
