@@ -7,6 +7,56 @@
 <style>
 h2 {color: darkblue;}
 body {background-color: beige; text-align: center;}
+
+      /*style für header und footer*/
+      .header_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height:130px;
+      }
+      
+      .img_logo {
+        width: 60px;
+        height: auto;
+        padding:10px;
+      
+      }
+      .links_nav a,
+      .links_footer a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+    
+      .links_nav a:hover,
+      .links_footer a:hover {
+        text-decoration: underline
+      }
+
+      .links_nav a {
+        text-transform: uppercase;
+        padding: 0 20px;
+      }
+
+      .links_nav,
+      .links_footer {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .links_footer a {
+        padding: 0 20px;
+      }
+      .copyright {
+        color: white;
+      }
+      .header_wrapper,
+      footer {
+        background-color: green;
+      }
 </style>
 	</head>
 	
@@ -33,12 +83,11 @@ body {background-color: beige; text-align: center;}
 		<ul>
 			<li>
 				<a href="index.html#contact">Kontakt</a>
-				<a href="catalogue.html#">Alle Pferde</a>
+				<a href="catalog.html#products">Alle Pferde</a>
 				<a href="index.html#home">Home</a>
 			</li>
 			
 	</ul>
-
-	</body>
+ 	</body>
 
 </html>

@@ -28,6 +28,8 @@ li a {
 
 body {
 	background-color: #0C2333;
+	margin-left: 20px;
+	margin-right: 20px;
  	
  }
  
@@ -39,8 +41,8 @@ footer {
  
 h1, h2, h3 {
 	text-align: center;
-	color: white;
-    font-family: cursive;
+	color: #f26be2;
+    font-family: Papyrus, cursive, Helvetica;
 }
 
 p {
@@ -53,6 +55,9 @@ blockquote {
 	color: white;
 	font-family: Courier New;
 	background-color: #0C1820;
+	float: right;
+	text-align: center;
+	margin-left: 450px;
     
 }
 

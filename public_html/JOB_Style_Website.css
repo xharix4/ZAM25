@@ -1,0 +1,33 @@
+header {
+	background-color:#FFC0CB; //rosa
+	font-family: Lucida, serif;
+	margin:0;
+	text-align: center;
+	padding: 1em;
+}
+
+body {
+	background-color:#F5F5DC; //beige
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+h1 {
+	background-color:# 87CEFA; //hellblau
+	color:#F5FFFA;
+	text-align: center;
+	font-size:2em; //relative Maßeinheit
+}
+
+p {
+	font-size: 1em; //absolute Maßeinheit
+}
+
+footer {
+	background-color:#FFC0CB; //rosa
+	font-family: Lucida, serif;
+	margin: 0;
+	text-align: center;
+	padding: 1em;
+}
+
