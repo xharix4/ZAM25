@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog | Campus Stables</title>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: Arial, sans-serif; */
+    color: #333;
+}
+
+header {
+    background-color: green;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.links_nav {
+    list-style: none;
+    display: flex;
+}
+
+.links_nav li {
+    margin: 0 15px;
+}
+
+.links_nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.links_nav a:hover {
+    text-decoration: underline;
+}
+
+/* LogIn Button */
+.login-btn a {
+    text-decoration: none;
+    color: white;
+    background-color: #006600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login-btn a:hover {
+    background-color: #004d00;
+}
+
+.search {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.search button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #004d00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #006600;
+}
+
+.offers {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.offers h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offer-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.offer-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.offer-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.offer-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+
+
+    <!-- <link rel="stylesheet" href="stylesheets.css"> - obsolet, da zum Schluss gemergt wird und jede Seite eigenes Styling hat -->
+
+    <style>
+        .header_wrapper {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+        .img_logo {
+          width: 60px;
+          height: auto;
+        }
+        .img_hof {
+          width: 100%;
+          height: auto;
+        }
+        .header_wrapper,
+        footer {
+          background-color: green;
+        }
+  
+        .links_nav a,
+        .links_footer a {
+          color: white;
+          font-size: 20px;
+          text-decoration: none;
+        }
+        .links_nav a {
+          text-transform: uppercase;
+          padding: 0 20px;
+        }
+  
+        .links_nav,
+        .links_footer {
+          list-style-type: none;
+          display: flex;
+          flex-direction: row;
+        
+        }
+  
+        .links_footer a {
+          padding: 0 20px;
+        }
+        .copyright {
+          color: white;
+        }
+        footer {
+          display: flex;
+          font-size: 16px;
+          flex-direction: column-reverse;
+          align-items: center;
+        }
+      </style>
+
+</head>
+
+<header class="header_wrapper">
+    <div class="logo">
+      <a href="#">
+        <img
+        src="https://www.svgrepo.com/show/23964/horse-head-with-hair-outline.svg"
+        class="img_logo"" alt="logo" />
+      </a>
+    </div>
+
+    <nav>
+      <ul class="links_nav">
+        <li>
+          <a href="#about">Zurück zur Homepage</a>
+        </li>
+        <li>
+          <a href="#products">Unsere Leistungen</a>
+        </li>
+        <li>
+          <a href="#contact">Kontakt</a>
+        </li>
+      </ul>
+
+      <!-- LogIn Button -->
+      <div class="login-btn">
+        <a href="#">LogIn</a>
+    </div>
+
+    </nav>
+  </header>
+
+<body>
+
+
+    <!-- Hauptbereich mit Angeboten -->
+    <section class="offers">
+        <h3>Schmöckern Sie durch unseren Katalog</h3>
+        <p>
+            In unserem Katalog stehen Pferde aller Leistungsklassen 
+            und Disziplinen zur Auswahl. Egal ob top ausgebildetes Dressurpferd, 
+            zuverlässiges Springpferd oder auch ein hervorragendes Pony für die Freizeit - 
+            wir, von Campus Stables, führen in unserem Katalog seit jeher nur das Beste 
+            vom Besten. Seit September 2024 bieten wir Ihnen nun auch online eine Übersicht 
+            unserer aktuell zum Verkauf stehenden Pferde. Wenn Sie also auf der Suche nach 
+            dem richtigen Pferd für Ihre Bedürfnisse sind, schmökern Sie gerne durch unseren 
+            Katalog oder nutzen einfach unsere Suchfunktion: </p>
+
+             <!-- Suchleiste -->
+    <section class="search">
+        <input type="text" placeholder="Pferde suchen...">
+        <button>Suchen</button>
+    </section>
+
+    <h2> Aktuell in unseren Stables verfügbar: </h2>
+
+        <div class="offer-list">
+            <div class="offer-item">
+                <a href="details1.html">
+                <img src="https://www.lqh.de/wordpress/wp-content/uploads/2017/01/camillo.jpg" alt="Great Gatsby"></a>
+                <h3>Great Gatsby</h3>
+                <p>Deutsches Sportpferd</p>
+                <p>Jahrgang: 2021</p>
+                
+            </div>
+            <div class="offer-item">
+                <a href="details2.html">
+                <img src="https://www.lqh.de/wordpress/wp-content/uploads/2017/01/Mila3.jpg" alt="Pretty Woman"></a>
+                <h3>Pretty Woman</h3>
+                <p>Allrounderin</p>
+                <p>Jahrgang: 2022</p>
+            </div>
+            <div class="offer-item">
+                <a href="details3.html">
+                <img src="https://www.lqh.de/wordpress/wp-content/uploads/2017/01/Wilma-scaled.jpg" alt="Shine Chic Shine"></a>
+                <h3>Shine Chic Shine</h3>
+                <p>Palomino</p>
+                <p>Jahrgang: 2020</p>
+            </div>
+            <div class="offer-item">
+                <a href="details3.html">
+                <img src="https://www.zooroyal.at/magazin/wp-content/uploads/2019/09/rasseportrait-englisches-vollblut.jpg" alt="Tornado"></a>
+                <h3>Tornado</h3>
+                <p>Englisches Vollblut</p>
+                <p>Jahrgang: 2019</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Campus Stables - Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
+

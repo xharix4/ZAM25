@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Stadles</title>
+    <style>
+      /*style für header und footer*/
+      .header_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height:130px;
+      }
+      
+      .img_logo {
+        width: 60px;
+        height: auto;
+        padding:10px;
+      
+      }
+      .links_nav a,
+      .links_footer a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+    
+      .links_nav a:hover,
+      .links_footer a:hover {
+        text-decoration: underline
+      }
+
+      .links_nav a {
+        text-transform: uppercase;
+        padding: 0 20px;
+      }
+
+      .links_nav,
+      .links_footer {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .links_footer a {
+        padding: 0 20px;
+      }
+      .copyright {
+        color: white;
+      }
+      .header_wrapper,
+      footer {
+        background-color: green;
+      }
+      footer {
+        display: flex;
+        font-size: 16px;
+        flex-direction: column-reverse;
+        align-items: center;
+	height:130px;
+      }
+
+
+     /* allgemein*/
+     * {
+      section { 
+        padding: 40px 20px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 86%;
+        margin: 50px auto;}
+     }
+      h2 {
+      color:green;
+      font-size: 30px;
+      letter-spacing: 1px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+     }
+
+     h3{ 
+      color: #555;
+    }
+     main {
+        margin:20px;
+      }
+
+/* sections*/
+      .img_hof, .img_hof_second {
+        width: 100%;
+        height: auto;
+      }
+
+      .images_hof {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+
+      #products {
+        display: flex;
+        align-items: flex-start;
+        justify-content:space-between;
+	gap:55px;
+        
+      }
+
+      .catalog {
+        width:50%;
+      }
+
+      .service ul {
+        padding:0px;
+      }
+     
+      .catalog h2 a{
+        text-decoration: none;
+        color:green;
+        
+      }
+      .catalog p a{
+        color:#0073e6;
+        font-weight:600;
+        
+      }
+
+      /*contact*/
+
+      #contact {
+        text-align: center;
+      }
+      .contact-item {
+         margin-bottom: 20px;
+         display: flex;
+         flex-direction: column;
+        gap: 8px;
+      }
+
+      .contact-item a {
+          color: #0073e6;
+          font-weight: 600;
+          text-decoration: none;
+        
+      }
+
+      .contact-item span:first-child {
+          font-size: 18px;
+          font-weight: 600;
+          color: #555;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <header class="header_wrapper">
+      <div class="logo">
+        <a href="#">
+          <img 
+          src="https://www.svgrepo.com/show/23964/horse-head-with-hair-outline.svg"
+          class="img_logo"" alt="logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="links_nav">
+          <li>
+            <a href="#about">Über uns</a>
+          </li>
+          <li>
+            <a href="#products">Unsere Leistungen</a>
+          </li>
+          <li>
+            <a href="#contact">Kontakte</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1></h1>
+      <section id="about">
+        <h2>Über uns</h2>
+        <p>
+          Beispiel Text:Unser Pferdehof blickt auf eine lange Geschichte zurück.
+          Das Familienunternehmen besteht bereits seit vier Generationen, sodass
+          wir auf ein hohes Maß an Erfahrung und Kompetenz zurückgreifen können.
+          Im Jahre 1924 gründete Karl Mayer das Unternehmen und legte somit den
+          Grundstein für eine erfolgreiche Laufbahn im Pferdehandel. Im Laufe
+          der folgenden Jahrzehnte hatten zwar auch wir mit branchenbedingten
+          Schwierigkeiten zu kämpfen, was zum Beispiel durch die Motorisierung
+          der Landwirtschaft in den 60er Jahren ausgelöst wurde, doch Dank
+          unserer Liebe zu den Vierbeinern und unserer Erfahrung in der
+          Pferdezucht und im Pferdehandel konnten wir uns immer erfolgreich am
+          Markt behaupten.
+        </p>
+        <h3>Verkauf</h3>
+        <p>
+          Beispiel Text: Mit unserem umfangreichen Angebot stellen wir jeden
+          Pferdefreund auf höchstem Niveau zufrieden. Zwischen 40 und 60 Pferde
+          aller Rassen stehen bei uns laufend zur Auswahl, sodass jeder Wunsch
+          erfüllt wird. Ob Sie sich nun für ein Reit-, Sport-, Freizeit- oder
+          Arbeitspferd interessieren, bei uns sind Sie bestens aufgehoben.
+        </p>
+        <h3>Ankauf</h3>
+        <p>
+          Beispiel Text:Wir unterbreiten Ihnen gerne ein passendes Angebot für
+          Ihr Pferd. Gerne kommen wir auch persönlich bei Ihnen vorbei und
+          verschaffen uns einen Eindruck von Ihrem Vierbeiner. Zudem können Sie
+          jederzeit bei uns vor Ort vorbeischauen. Sie können sich absolut
+          sicher sein, dass Ihr Liebling bei uns bestens aufgehoben sein wird.
+        </p>
+        <div class="images_hof">
+         <div><img class="img_hof"
+          src="https://cdn.pixabay.com/photo/2016/08/20/14/25/landscape-1607585_1280.jpg"
+          alt="Pferdehof">
+        </div>
+        <div>
+          <img class="img_hof_second"
+          src="https://cdn.pixabay.com/photo/2023/05/24/09/29/trees-8014461_1280.jpg"
+          alt="Pferdehof frei">
+        </div>
+      </div>
+      </section>
+      <section id="products">
+        <div class="catalog">
+           <h2> Unser Katalog</h2>
+            <p>
+              Schauen Sie sich unsere wunderschönen Pferde an – perfekt für Liebhaber
+              und Reiter! Entdecken Sie unsere Auswahl an edlen Pferden zum Kauf und
+              finden Sie Ihren idealen Begleiter. 
+              <a href="catalog.html"> Zum Katalog</a>
+           </p>
+         </div>
+         <div class="service">
+            <h2>Unsere Extras</h2>
+            <ul>
+              <li>Fotoshooting mit Ihrem Lieblingspferd</li>
+              <li>Kindergeburtstage mit spannenden Aktivitäten rund um Pferde</li>
+              <li>Workshop „Pferde pflegen“ – Lernen Sie den richtigen Umgang mit Pferden</li>
+           </ul>
+         <div>
+        </section>
+        <section id="contact">
+          <h2>Kontakte</h2>
+          <div class="contact-item">
+              <span>Adresse:</span>
+              <span>Graz, 8055, Strassgang 24</span>
+          </div>
+        
+          <div class="contact-item">
+              <span>Tel.:</span>
+              <a href="tel:+43 660 00 11 012">
+                  <span>+43 660 00 11 22</span>
+              </a>
+          </div>
+        
+          <div class="contact-item">
+              <span>Email:</span>
+              <span>campus_stadles@gmail.com</span>
+          </div>
+      </section>
+    </main>
+    <footer>
+      <div class="copyright">
+        <p>© 2025 Campus Stables. Alle Rechte vorbehalten.</p>
+      </div>
+      <div>
+        <ul class="links_footer">
+          <li>
+            <a href="#about">Über uns</a>
+          </li>
+          <li>
+            <a href="#products">Unsere Leistungen</a>
+          </li>
+          <li>
+            <a href="#contact">Kontakte</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
+
