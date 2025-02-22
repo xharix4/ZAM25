@@ -1,0 +1,44 @@
+/* General Reset */
+* {
+	* margin: 0;
+	* padding: 0;
+	* box-sizing: border-box;
+	* text-align: center;
+	* }
+	
+	body { font-family: Tahoma, Verdana, sans-serif; 
+		background-image: url("https://images.pexels.com/photos/7130546/pexels-photo-7130546.jpeg?auto=compress&cs=tinysrgb&w=1200");	
+		color: #333; 
+		padding: 20px;
+		}
+
+	nav { 	background-color: #333; 
+		padding: 10px;
+		text-align: center;
+		}
+	ul {
+ 		 border: 1px solid #e7e7e7;
+		 border-style: round;
+ 		 background-color: white;
+ 		 top: 0;
+ 		 width: 100%;
+		 padding: 20px 40px;
+ 		 opacity: 80%;
+}
+
+	li {
+		display: inline;
+  		color: black;
+  		text-align: center;
+ 		padding: 20px;
+}
+
+	table th td {
+		  border: 1px solid #e7e7e7;
+		  border-style: round;
+		  background-color: white;
+		  width: 100%;
+ 		  padding: 20px 40px;
+		  opacity: 50%;
+		  text-align: center;
+}
