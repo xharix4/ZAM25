@@ -6,6 +6,10 @@ body, h1, h2, p, ul {
 body {
 	font-family: Arial, sans-serif;
 	text-align: center;
+	background-image: "https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_1280.jpg";
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	background-color: #f4f4f4;
 	padding: 20px;
 }
