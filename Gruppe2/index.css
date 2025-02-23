@@ -8,7 +8,10 @@
 
         body { font-family: Tahoma, Verdana, sans-serif;
                 background-image: url("https://images.pexels.com/photos/7130546/pexels-photo-7130546.jpeg?auto=compress&cs=tinysrgb&w=1200");
-                color: #333;
+                background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:100% 100%;
+		color: #333;
                 padding: 20px; 
                 text-align: center;}
 
