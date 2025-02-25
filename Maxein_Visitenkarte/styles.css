@@ -1,0 +1,98 @@
+/* General Reset */
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin:0;
+    padding: 0;
+    background-color: lightpink;
+}
+
+header {
+    width: 100%; /* Header über die gesamte Breite */
+    background-color: darkblue;
+    padding: 0 15px; /*Abstand links und rechts */
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    height: 70px; /*Feste Höhe für den Header */
+    display: flex;
+}
+
+/* Home Button */
+header button {
+    background-color: lightblue;
+    color: white;
+    padding: 5px 15px; 
+    border-radius: 10px;
+    text-decoration: none; /* Keine Unterstreichung */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer; /* zeigt an, dass es klickbar ist */
+    border: 2px solid whitesmoke;
+    display: inline-block;
+}
+
+
+/*Container für Bild und Name */
+.container {
+    display: flex; /* setzt Bild und Name nebeneinander */
+    align-items: center; /*sorgt für vertikale Ausrichtung */
+    margin: 20px; /* Abstand von oben */
+    flex-wrap: wrap; /* erlaubt Umbruch bei kleinen Bildschirmen */
+}
+
+/* Bild */
+.container img {
+    width: 120px; 
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px; /*Abstand zwischen Bild und Text */ 
+}
+
+/* Name Box */
+.container .name {
+    background-color: lightgray;	
+    padding: 15px 30px;		/* Innenabstand */
+    border-radius: 15px;
+    display: inline-block;	/* Breite passt sich dem Inhalt an */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Über mich-Box */
+.ueber-mich {
+    background-color: lightgray; 	/* Hellgrauer Hintergrund */
+    padding: 20px; 			/* Innenabstand */
+    border-radius: 15px; 		/* Abgerundete Ecken */
+    width: 500px; 			/* Breite der Box */
+    margin: 20px auto; 			/* Zentriert */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    word-wrap: break-word; 		/* Sorgt für Zeilenumbrüche bei langen Wörtern */
+    white-space: normal; 		/* Erlaubt Umbrüche innerhalb von Text */
+    display: block; 			/* Sicherstellen, dass die Box uunterhalt des Containers belibt */
+    clear: left;			/* Stellt sicher, dass sie unter dem Bild- Name-Bereich steht */
+}
+
+/* Stil Über mich-Überschrift */
+.ueber-mich h2 {
+    text-align: center; /* Überschrift zentrieren */
+    color: black;
+}
+
+/* Stil für die Liste in der "Über mich"-Box */
+.ueber-mich ul li {
+    padding: 5px 0; /* Abstand zwischen den Listenpunkten */
+    font-size: 16px; /* Schriftgröße */
+    text-align: justify
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    font-size: 14px;
+    text-align: center; /* Zentriert den Text */
+    padding: 15px 0; /* Abstand innen */
+    margin-top: 30px; /* Abstand nach oben */
+}
+
