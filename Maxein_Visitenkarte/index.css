@@ -1,0 +1,29 @@
+header {
+  background-color: lightblue;
+  font-family: verdana;
+}
+
+body {
+  background-color: pink;
+}
+
+h1 {
+  color: black;
+  font-family: verdana;
+  font-size: 250px;
+}
+
+p {
+background-color: black;
+color: white;
+  font-family: courier;
+  font-size: 16px;
+  text-align: center;
+}
+footer {
+  background-color: lightblue;
+color: white;
+  font-family: courier;
+  font-size: 160px;
+}
+
