@@ -1,0 +1,22 @@
+body {font-family: helvetica, arial, sans-serif;
+	background-color: #FDDCEF;
+	color: #23033D;
+	display: center;
+	width: 70%;
+	}
+nav {margin-left: 40px;}
+a:link {text-decoration: none;
+	color: brown;}
+a:hover {text-decoration: none;
+	color: red;}
+img {float: left;
+	margin-right: 20px;
+	margin-bottom:20px;
+	margin-left: 40px;}
+
+ul {list-style: none;
+	}
+
+h2 {color: #691188;
+	margin-bottom: -5px;
+	}
