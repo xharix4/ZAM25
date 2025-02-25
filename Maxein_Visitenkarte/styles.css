@@ -34,7 +34,7 @@ header button {
 .container {
     display: flex; /* setzt Bild und Name nebeneinander */
     align-items: center; /*sorgt für vertikale Ausrichtung */
-    margin: 20px; /* Abstand von oben */
+    margin: 20px 0 0 20px; /* Abstand von oben 20, rechts 0, unten 0, und links 20 */
     flex-wrap: wrap; /* erlaubt Umbruch bei kleinen Bildschirmen */
 }
 
@@ -63,21 +63,22 @@ header button {
     padding: 20px; 			/* Innenabstand */
     border-radius: 15px; 		/* Abgerundete Ecken */
     width: 500px; 			/* Breite der Box */
-    margin: 20px auto; 			/* Zentriert */
+    margin: 20px 0 0 20px; /* Oben 20px, rechts 0, unten 0, links 20px */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
     text-align: center;
     color: black;
     font-size: 18px;
     word-wrap: break-word; 		/* Sorgt für Zeilenumbrüche bei langen Wörtern */
     white-space: normal; 		/* Erlaubt Umbrüche innerhalb von Text */
-    display: block; 			/* Sicherstellen, dass die Box uunterhalt des Containers belibt */
-    clear: left;			/* Stellt sicher, dass sie unter dem Bild- Name-Bereich steht */
+    display: block; 			/* Sicherstellen, dass die Box unterhalb des Containers belibt */
+    clear: both;			/* Stellt sicher, dass sie unter dem Bild- Name-Bereich steht */
 }
 
 /* Stil Über mich-Überschrift */
 .ueber-mich h2 {
     text-align: center; /* Überschrift zentrieren */
     color: black;
+    font-size: 18px;
 }
 
 /* Stil für die Liste in der "Über mich"-Box */
@@ -92,7 +93,7 @@ footer {
     color: white;
     font-size: 14px;
     text-align: center; /* Zentriert den Text */
-    padding: 15px 0; /* Abstand innen */
-    margin-top: 30px; /* Abstand nach oben */
+    padding: 10px 0; /* Abstand innen */
+    margin-top: 10px; /* Abstand nach oben */
 }
 
