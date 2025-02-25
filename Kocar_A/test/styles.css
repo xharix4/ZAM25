@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    background:lightgrey;
+    text-align: center;
+}    
+  
+header {
+    background-color: #f1f1f1;
+    padding: 25px;
+    text-align: center;
+    width: auto;
+}
+
+nav {
+    background-color: white;
+}
+
+nav a {
+    margin: 0 15px;  /
+    text-decoration: none;
+    color: green;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; 
+    gap: 100px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.places {
+    display: flex; /* Align text horizontally if you want items inline */
+    flex-direction: column; /* Keeps the list in a vertical column */
+    gap: 10px; /* Adds spacing between the list items */
+}
+
+a {
+  text-decoration: none; 
+  color:black;
+}
+
+a:hover {
+  text-decoration: none; 
+  color:red;
+}
+
+
+p {text-align: center;
+}
+ 
+li{text-align: left;
+  margin-bottom: 10px;
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+} 
